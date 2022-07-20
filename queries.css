@@ -1,0 +1,419 @@
+
+/* -----------------phone greater 1023 or equal to 1200px ---------------*/
+@media only screen and (max-width:1100px) {
+
+
+}
+
+/* -----------------phone greater 767 or equal to 480px ---------------*/
+@media only screen and (max-width:1023px) {
+
+}
+
+
+/* -----------------phone smaller or equal to 767px ---------------*/
+@media only screen and (max-width:767px) {
+	nav { display: none; }
+	body {
+		font-size: 18px;
+	}
+		/* ----------header------------ */
+		.heading-box {
+			padding-left: 40px;
+			margin: auto;
+			width: 100%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	h1 {
+		will-change: 100%;
+		font-size: 180%;
+		font-weight: 300;
+		letter-spacing: 1.2px;
+		word-spacing: 2px;
+		padding-bottom: 40px;
+	}
+	/* -----------section-box-------- */
+	.icon-div{
+		padding: 5px 30px;
+		flex-direction:column;
+		margin-bottom: 30px;
+
+	}
+	.icon-div div {
+		margin-bottom: 20px;
+	}
+	.icon-div div h3 {
+		margin-bottom: 10px;
+		font-size: 130%;
+	}
+	.icono {
+		font-size: 250%;
+		color: #e67e22;
+		margin-bottom: 10px;
+
+	}
+	/* -------download aur app-------- */
+	.download{
+		background-color:#f4f4f4;
+		padding:30px 10px;
+		margin-bottom: 40px;
+	}
+	.how-it-works{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.image {
+		text-align: center;
+		padding-right: 0;
+	}
+	.image .phone-image {
+		width: 45%;
+		height: auto;
+	}
+	.mobile-app {
+		margin-top: 70px;
+		width: 100%;
+		margin-left: 30px;
+	}
+	.follow-paragraph {
+		max-width: 95%;
+		line-height: 1.2;
+	}
+	.link-image img {
+		height: 40px;
+		width: auto;
+		margin-left: 30px;
+	}
+	/*-----section for cities---- */
+	.city {
+		margin-bottom: 10px;
+
+	}
+	.city img{
+		max-width: 100%;
+		height: 400px;
+	}
+		/* -----------sign-up-secion------------- */
+	.sign-up-section {
+		font-size: 110%;
+		padding: 30px 0;
+		background-color: #f4f4f4;
+	}
+	.sign-up-container {
+		padding:25px 10px;
+		width: 95%;
+		flex-wrap: wrap;
+		box-shadow: 0 3px 10px #777;
+		margin: auto;
+	}
+	.big-money {
+		font-size: 300%;
+	}
+	.sign-up-cont {
+		width: 70%;
+		border-radius: 10px;
+		box-shadow: 0 3px 5px #777;
+		margin-bottom: 30px;
+	}
+	.sign-up-cont:last-of-type {
+		margin-bottom: 0;
+	}
+		/* -------------form-section----------------------- */
+
+		.form-section {
+			background-color: #f4f4f4;
+			padding: 30px 0;
+			font-size: 100%;
+		}
+
+		form {
+			padding: 10px;
+			width: 100%;
+		}
+		.form-container {
+			width: 90%;
+			margin: auto;
+
+		}
+		/* -------------customers section-------- */
+		.customers-section{padding: 20px 40px; }
+		.customers-container{
+			display: flex;
+			flex-direction: column;
+		}
+		blockquote {
+			line-height: 1.45;
+			max-width: 90%;
+			padding: 2%;
+		}
+		cite {
+			margin-top: 15px;
+			display: block;
+			font-size: 90%;
+		}
+	/* ------reusable----------- */
+	.div-for-ph p {
+		margin: 0 7px;
+		line-height: 125%;
+		font-size: 90%;
+	}
+
+	footer {
+		width: 100%;
+		margin: auto;
+		padding: 20px 0;
+		background-color: #333;
+	}
+	.footer-container {
+		width: 90%;
+		padding: 20px;
+		margin-bottom: 10px;
+	}
+	.footer-container div {
+		width: 100%;
+		display: block;
+	}
+	.social-footer {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.social-footer ul {
+		float: left;
+		margin-right: 0;
+	}
+	.navig li {
+		display: inline-block;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+/* -----------------phone smaller or equal to 480px ---------------*/
+@media only screen and (max-width:480px) {
+
+	nav { display: none; }
+	body {
+		font-size: 16px;
+	}
+	/* ----------header------------ */
+	.heading-box {
+		padding-left: 10px;
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 40%;
+		transform: translate(-40%, -50%);
+	}
+h1 {
+	will-change: 100%;
+	font-size: 150%;
+	font-weight: 300;
+	letter-spacing: 1.2px;
+	word-spacing: 2px;
+	padding-bottom: 40px;
+}
+	/* -------------------- */
+	/* --reusable----------- */
+	.div-for-ph {
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.btn,
+button {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 5px;
+	border: 1px solid #e67e22;
+	border-radius: 200px;
+	text-align: center;
+	transition: all .5s;
+}
+	h2 {
+		text-align: center;
+		font-weight: 300;
+		font-size: 110%;
+		letter-spacing: 1.2px;
+		word-spacing: 2px;
+		margin-bottom: 14px;
+	}
+	h3{ font-size: 80%; }
+.div-for-ph p {
+	margin: 0 5px;
+	line-height: 125%;
+	font-size: 90%;
+}
+	/* ------------------------ */
+	/* -------------------section-box------------------- */
+	.icono {
+		font-size: 200%;
+		color: #e67e22;
+		margin-bottom: 5px;
+
+	}
+
+	/* ---------city section------- */
+	.download{
+		background-color:#f4f4f4;
+		padding:20px 5px;
+		margin-bottom: 20px;
+	}
+	.how-it-works{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+	.image {
+		text-align: center;
+	}
+	.mobile-app {
+		margin-top: 60px;
+		width: 100%;
+		margin-left: 15px;
+	}
+	.div-circle:last-of-type {
+		margin-bottom: 40px;
+	}
+	.link-image img {
+		margin: auto;
+		height: 40px;
+		width: 100%;
+		margin-left: 20px
+	}
+	.icon-div {
+		flex-direction: column;
+		/* flex-wrap: wrap; */
+		width: 100%;
+		/* padding: 5px 10px; */
+		margin-bottom: 40px;
+	}
+
+	.city {
+		margin-bottom: 15px;
+
+	}
+	.city img{
+		max-width: 100%;
+		height: 300px;
+	}
+	/* -------------------- */
+	.div-circle div {
+		float: left;
+		border: 1px #e67e22 solid;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		text-align: center;
+		padding: 5px;
+		color: #e67e22;
+		margin-right: 10px;
+	}
+	.follow-paragraph {
+		max-width: 100%;
+		line-height: 1.2;
+	}
+	/* -------------city-section----------- */
+	.icon-div div h3 {
+		font-weight: 300;
+		margin-bottom: 10px;
+		font-size: 120%;
+	}
+	/* -----------sign-up-secion------------- */
+	.sign-up-section {
+		padding: 30px 0;
+		background-color: #f4f4f4;
+	}
+	.sign-up-container {
+		padding:25px 10px;
+		width: 95%;
+		flex-wrap: wrap;
+		box-shadow: 0 3px 10px #777;
+		margin: auto;
+	}
+	.big-money {
+		font-size: 200%;
+	}
+	.sign-up-cont {
+		width: 90%;
+		border-radius: 10px;
+		box-shadow: 0 3px 5px #777;
+		margin-bottom: 30px;
+	}
+	.sign-up-cont:last-of-type {
+		margin-bottom: 0;
+	}
+	/* -------------form-section----------------------- */
+
+	.form-section {
+		background-color: #f4f4f4;
+		padding: 30px 0;
+		font-size: 80%;
+	}
+
+	form {
+		padding: 10px;
+		width: 100%;
+	}
+	.form-container {
+		width: 90%;
+		margin: auto;
+
+	}
+	/* -------------customers section-------- */
+	.customers-section{padding: 20px 40px; }
+	.customers-container{
+		display: flex;
+		flex-direction: column;
+	}
+	blockquote {
+		line-height: 1.45;
+		max-width: 90%;
+		padding: 2%;
+	}
+	cite {
+		margin-top: 15px;
+		display: block;
+		font-size: 90%;
+	}
+	/* -----------------footer---------------- */
+
+	footer {
+		font-size: 120%;
+		width: 100%;
+		margin: auto;
+		padding: 20px 0;
+		background-color: #333;
+	}
+	.footer-container {
+		width: 90%;
+		padding: 20px;
+	}
+	.footer-container div {
+		display: inline-block;
+	}
+	.nav-footer {
+		float: left;
+		width: 50%;
+	}
+	.social-footer {
+		width: 50%;
+	}
+	.social-footer ul {
+		margin-right: 5%;
+	}
+	.navig li {
+		display: block;
+		padding: 10px;
+	}
+	.copy-right {
+		width: 100%;
+		text-align: center;
+		padding: 5px;
+	}
+	}
